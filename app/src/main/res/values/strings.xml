@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mallmode</string>
+    <string name="fine_no_data">fine_no_data</string>
+    <string name="click_me_to_retry">click_me_to_retry</string>
+</resources>
