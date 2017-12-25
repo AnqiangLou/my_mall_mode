@@ -1,1 +1,0 @@
-# my_mall_mode

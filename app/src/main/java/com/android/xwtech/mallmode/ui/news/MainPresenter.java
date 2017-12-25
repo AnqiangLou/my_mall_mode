@@ -1,4 +1,4 @@
-package com.android.xwtech.mallmode.ui;
+package com.android.xwtech.mallmode.ui.news;
 
 import android.support.annotation.NonNull;
 import android.util.Log;

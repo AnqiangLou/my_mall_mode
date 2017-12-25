@@ -1,4 +1,4 @@
-package com.android.xwtech.mallmode.ui;
+package com.android.xwtech.mallmode.ui.news;
 
 import com.android.xwtech.mallmode.base.BasePresenter;
 import com.android.xwtech.mallmode.base.BaseView;

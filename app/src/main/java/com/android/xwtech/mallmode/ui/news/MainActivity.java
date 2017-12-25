@@ -1,4 +1,4 @@
-package com.android.xwtech.mallmode.ui;
+package com.android.xwtech.mallmode.ui.news;
 
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +11,7 @@ import com.android.xwtech.mallmode.callback.EmptyCallback;
 import com.android.xwtech.mallmode.callback.ErrorCallback;
 import com.android.xwtech.mallmode.callback.LoadingCallback;
 import com.android.xwtech.mallmode.model.News;
+import com.android.xwtech.mallmode.util.RecycleViewDivider;
 import com.kingja.loadsir.callback.Callback;
 import com.kingja.loadsir.core.LoadService;
 import com.kingja.loadsir.core.LoadSir;
@@ -51,6 +52,7 @@ public class MainActivity extends BaseTitleActivity implements Callback.OnReload
         View view = View.inflate(this, R.layout.layout_empty, null);
 //        mMainAdapter.setEmptyView(view);
         mRvNews.setLayoutManager(new LinearLayoutManager(this));
+        mRvNews.addItemDecoration(new RecycleViewDivider(this,LinearLayoutManager.HORIZONTAL));
         mRvNews.setAdapter(mMainAdapter);
     }
 
